@@ -44,8 +44,9 @@
 ```kotlin
 var result by remember { mutableStateOf(1) }
 
+
 ```kotlin
-// Компонуемые функции
+Компонуемые функции
 @Composable
 fun DiceWithButtonAndImage() {
     // Состояние и логика
