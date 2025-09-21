@@ -45,12 +45,14 @@
 ```kotlin
 var result by remember { mutableStateOf(1) }
 
+```kotlin
 // Компонуемые функции
 @Composable
 fun DiceWithButtonAndImage() {
     // Состояние и логика
 }
 
+```kotlin
 // Material Design 3 компоненты
 Button(onClick = { result = (1..6).random() }) {
     Text(stringResource(R.string.roll))
