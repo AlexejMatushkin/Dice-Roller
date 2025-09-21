@@ -1,4 +1,4 @@
-## 🇷🇺 Dice Roller - Бросок костей
+## Dice Roller - Бросок костей
 
 Простое и элегантное Android-приложение для броска игральных костей, созданное с использованием Jetpack Compose.
 
@@ -24,6 +24,7 @@
 ### 📦 Установка
 
 1. Клонируйте репозиторий:
+
 ```bash
 git clone https://github.com/your-username/DiceRoller.git
 Откройте проект в Android Studio
@@ -42,7 +43,7 @@ git clone https://github.com/your-username/DiceRoller.git
 
 kotlin
 // Использование remember для сохранения состояния
-var  result by remember { mutableStateOf(1) }
+var result by remember { mutableStateOf(1) }
 
 // Компонуемые функции
 @Composable
@@ -51,6 +52,6 @@ fun DiceWithButtonAndImage() {
 }
 
 // Material Design 3 компоненты
-Button(onClick = {  result = (1..6).random() }) {
-            Text(stringResource(R.string.roll))
-        }
+Button(onClick = { result = (1..6).random() }) {
+    Text(stringResource(R.string.roll))
+}
