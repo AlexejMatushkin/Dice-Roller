@@ -43,10 +43,8 @@
 Использование remember для сохранения состояния:
 ```kotlin
 var result by remember { mutableStateOf(1) }
-
-
+Компонуемые функции:
 ```kotlin
-Компонуемые функции
 @Composable
 fun DiceWithButtonAndImage() {
     // Состояние и логика
