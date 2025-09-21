@@ -23,7 +23,7 @@
 
 ### 📦 Установка
 
-1. **Клонируйте репозиторий:**
+**Клонируйте репозиторий:**
    ```bash
    git clone https://github.com/your-username/DiceRoller.git
 Откройте проект в Android Studio
@@ -43,15 +43,17 @@
 Использование remember для сохранения состояния:
    ```kotlin
    var result by remember { mutableStateOf(1) }
-Компонуемые функции:
-   ```kotlin
-@Composable
-fun DiceWithButtonAndImage() {
+   ```
+**Компонуемые функции:**
+  ```kotlin
+  @Composable
+  fun DiceWithButtonAndImage() {
     // Состояние и логика
-}
-
-```kotlin
-// Material Design 3 компоненты
-Button(onClick = { result = (1..6).random() }) {
+  }
+  ```
+**Material Design 3 компоненты:**
+  ```kotlin
+  Button(onClick = { result = (1..6).random() }) {
     Text(stringResource(R.string.roll))
-}
+  }
+  ```
