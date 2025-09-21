@@ -41,10 +41,10 @@
 Приложение демонстрирует лучшие практики Jetpack Compose:
 
 Использование remember для сохранения состояния:
-```kotlin
-var result by remember { mutableStateOf(1) }
+   ```kotlin
+   var result by remember { mutableStateOf(1) }
 Компонуемые функции:
-```kotlin
+   ```kotlin
 @Composable
 fun DiceWithButtonAndImage() {
     // Состояние и логика
