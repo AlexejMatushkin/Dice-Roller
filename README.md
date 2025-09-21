@@ -42,7 +42,7 @@
 
 Использование remember для сохранения состояния:
 
-kotlin
+```kotlin
 var result by remember { mutableStateOf(1) }
 
 // Компонуемые функции
