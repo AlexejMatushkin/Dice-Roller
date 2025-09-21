@@ -41,7 +41,6 @@
 Приложение демонстрирует лучшие практики Jetpack Compose:
 
 Использование remember для сохранения состояния:
-
 ```kotlin
 var result by remember { mutableStateOf(1) }
 
